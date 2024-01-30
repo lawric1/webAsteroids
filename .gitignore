@@ -1,4 +1,9 @@
+# Exclude files and folders from Love2D build
+build/
+makelove
+
+# Exclude other file types
 *.zip
 *.aseprite
-asefiles
+asefiles/
 *.toml
