@@ -1,4 +1,4 @@
 *.zip
 *.aseprite
 asefiles
-makelove.toml
+*.toml
