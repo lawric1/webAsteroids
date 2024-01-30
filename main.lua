@@ -286,6 +286,7 @@ function love.keypressed(key)
         gameState = "start"
     end
 
+    -- Quit
     if key == "escape" then
         love.event.quit()
     end

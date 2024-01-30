@@ -1,1 +1,0 @@
-setup bash file to auto export to html5 and all platforms

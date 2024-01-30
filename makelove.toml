@@ -1,9 +1,15 @@
 name = "webAsteroids"
-default_targets = ["win32", "win64"]
+default_targets = ["win64", "lovejs", "macos"]
 build_directory = "build"
 
 love_files = [
-    "+*",
+    "::git-ls-tree::",
     "-*/.*",
-    "-./build/*",
+    "-screenshots/**",     
+    "-README.md",          
+    "-assets/asefiles/**",
+    "-.gitignore"
 ]
+
+love_version = "11.5"
+icon_file = "assets/icon.png"
