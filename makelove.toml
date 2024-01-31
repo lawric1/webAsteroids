@@ -9,6 +9,7 @@ love_files = [
     "-README.md",          
     "-assets/asefiles/**",
     "-.gitignore",
+    "-push.sh",
 ]
 
 love_version = "11.5"

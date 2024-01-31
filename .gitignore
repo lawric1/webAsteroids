@@ -1,5 +1,6 @@
 # Exclude files and folders from Love2D build
 build/
+push.sh
 
 # Exclude other file types
 *.zip

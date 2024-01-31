@@ -287,9 +287,9 @@ function love.keypressed(key)
     end
 
     -- Quit
-    if key == "escape" then
-        love.event.quit()
-    end
+    -- if key == "escape" then
+    --     love.event.quit()
+    -- end
 end
 
 function love.keyreleased(key)
